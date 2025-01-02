@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    background-color: #E5E3DC;
+}
+
+button{
+    width: 171.374px;
+height: 54.219px;
+flex-shrink: 0;
+border-radius: 25px;
+margin-top: 29px;
+display: flex;
+width: 177px;
+height: 48px;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+border: 0px;
+/* Button-Desktop */
+font-family: "Kulim Park";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background: var(--Pink, #D4967D);
+align-items: center;
+transition: background-color 0.3s; /* to create a transition in a background-color style */
+transition: color 0.3s; /* to create a transition in a background-color style */
+}
+
+button:hover{
+    background-color: white
+}
+
+button:hover{
+    color: #d4967d;
+}
+
+.logo{
+    width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 169.8px;
+object-fit: cover;
+width: 230.62px;
+margin-left: 170px;
+}
+
+title {
+    width: 253.2px;
+    position: relative;
+    font-size: 24.19px;
+        font-family: "Bruno Ace", serif;
+        font-weight: 400;
+        font-style: normal;      
+    color: #495a58;
+    text-align: left;
+    display: inline-block;
+    height: 49.6px;
+    margin-left: 385.82px;
+    vertical-align: top;
+    margin-top: -100.8px;
+}
+.header{
+    width: 1170px;
+    height: 169.775px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    color: var(--Dark-green, #495a58);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Kulim Park";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+nav{
+    display: flex;
+width: 400.188px;
+height: 17.168px;
+justify-content: center;
+align-items: flex-start;
+gap: 31px;
+flex-shrink: 0;
+margin-left: 1217px;
+margin-top: -119.6px;
+}
+
+.Gallery h1{
+    width: 973px;
+height: 58px;
+flex-shrink: 0;
+color: var(--Dark-green, #495A58);
+text-align: center;
+
+/* h1-Desktop */
+font-family: "Bruno Ace";
+font-size: 65.14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 auto;
+}
+
+.Gallery .Gallery-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    margin-bottom: 36px;
+}
+
+.Footer .container{
+    width: 100%;
+    height: 328px;
+    background-color: #CDCDCD;
+}
+
+.Footer .item{
+    display: inline-block;
+}
+
+.Footer .col1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 70px;
+    margin-left: 381px;
+}
+
+.Footer .col1 h4{
+    margin-top: 0px;
+    width: 279px;
+height: 59px;
+flex-shrink: 0;
+color: var(--Dark-green, #495A58);
+/* h4-Desktop */
+font-family: "Bruno Ace SC";
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0px;
+}
+
+.Footer .col1 p{
+    width: 175px;
+height: 78px;
+flex-shrink: 0;
+color: var(--Black, #000);
+/* Paragraph-Desktop */
+font-family: "Kulim Park";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 28px;
+}
+
+.Footer .col2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 70px;
+}
+
+.Footer .col2 h4{
+    margin-top: 0px;
+    width: 279px;
+height: 59px;
+flex-shrink: 0;
+color: var(--Dark-green, #495A58);
+/* h4-Desktop */
+font-family: "Bruno Ace SC";
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0px;
+}
+
+.Footer .col2 p{
+    width: 279px;
+height: 78px;
+flex-shrink: 0;
+color: var(--Black, #000);
+/* Paragraph-Desktop */
+font-family: "Kulim Park";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-top: 28px;
+}
