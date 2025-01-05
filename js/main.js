@@ -7,18 +7,6 @@ function sendText(){
     title.innerHTML = text; /* innerHTML is a property that allows to change content of the element */
 }
 
-var items = document.querySelectorAll(".item");
-
-function changeSize(event){
-    console.log("Item clicked!!!", event.target);
-
-       items.forEach( (item)=>{
-        item.style.width = "25%";
-       })
-    var item = event.target;
-    item.style.width = "50%";
-}
-
 var columns = document.querySelectorAll(".col");
 
 function changeSize(event){
